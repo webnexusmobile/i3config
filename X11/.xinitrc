@@ -38,12 +38,5 @@ xbindkeys
 # disable terminal bell
 xset -b
 
-#
-export BROWSER="/usr/bin/vivaldi-stable"
-if [ -d $HOME/.config/chromium ]; then
-  rm -rf $HOME/.config/chromium
-fi
-cp -r $HOME/.config/chromium_backup .config/chromium
-
 # start and log i3-wm
 exec i3 -V >> $HOME/.config/i3log 2>&1
