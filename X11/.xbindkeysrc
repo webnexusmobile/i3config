@@ -1,0 +1,32 @@
+# For the benefit of emacs users: -*- shell-script -*-
+###########################
+# xbindkeys configuration #
+###########################
+
+# Increase volume
+"pactl set-sink-volume 0 +3000"
+   XF86AudioRaiseVolume
+
+# Decrease volume
+"pactl set-sink-volume 0 -3000"
+   XF86AudioLowerVolume
+
+# Mute volume
+"pactl set-sink-mute 0 toggle"
+   XF86AudioMute
+
+# Mute microphone
+"pactl set-source-mute 1 toggle"
+   XF86AudioMicMute
+
+# Increas backlight brightness
+"xbacklight -dec 5"
+XF86MonBrightnessDown
+
+# Decrease backlight brightness
+"xbacklight -inc 5"
+XF86MonBrightnessUp
+
+##################################
+# End of xbindkeys configuration #
+##################################

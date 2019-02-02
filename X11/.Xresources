@@ -1,0 +1,2 @@
+xterm*vt100*reverseVideo: true
+xterm*faceName: xft:Terminus:size=10
