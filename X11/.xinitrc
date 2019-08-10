@@ -38,5 +38,8 @@ xbindkeys
 # disable terminal bell
 xset -b
 
+#
+export BROWSER="/usr/bin/chromium"
+
 # start and log i3-wm
 exec i3 -V >> $HOME/.config/i3log 2>&1

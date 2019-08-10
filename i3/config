@@ -131,7 +131,7 @@ bindsym $mod+Shift+e exec i3-msg exit
 # lock screen
 bindsym Mod4+l exec --no-startup-id i3lock -c 000000
 # open browser
-bindsym Mod4+b exec --no-startup-id vivaldi-stable
+bindsym Mod4+c exec --no-startup-id chromium 
 # resize window (you can also use the mouse for that)
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
@@ -173,3 +173,4 @@ bar {
 
 exec --no-startup-id feh --no-fehbg --bg-fill ~/Images/enigma.jpg
 #arch-wallpaper-hq.png
+#exec --no-startup-id xinput set-prop 'TPPS/2 Elan TrackPoint' 'libinput Accel Speed' 1
